@@ -1,0 +1,51 @@
+body{
+    background-color: #b3e7b938;
+}
+.dayCounter{
+    border: 1px solid green;
+    width: 50%;
+    margin: 0 auto;
+    margin-top: 300px;
+    background-color: white;
+    border-radius:12px;
+}
+
+
+.dayCounter h1{
+  text-align: center;
+  color: #8f832e;
+  
+}
+
+#indicators{
+    display: flex;
+    justify-content: space-evenly;
+    padding-left: 57px;
+}
+
+#indicators li{
+    list-style: none;
+    font-size: 27px;
+    color: #898156;
+}
+
+#numRes{
+    display: flex;
+    justify-content: space-evenly;
+    
+
+}
+
+#numRes li{
+    list-style: none;
+    font-size: 32px;
+    color: #898156;
+}
+
+#greetingMsg{
+    position: absolute;
+    top: 128px;
+    left: 450px;
+    font-size: 32px;
+    color: blue;
+}
